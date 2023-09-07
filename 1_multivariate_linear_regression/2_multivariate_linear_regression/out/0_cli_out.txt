@@ -1,0 +1,22 @@
+Loading data ...
+Normalizing Features ...
+Running gradient descent ...
+Theta computed from gradient descent:
+ 340412.563014
+ 110540.566546
+ -6558.990548
+
+price=340412.563+110540.5665*Narea-6558.9905*Nrooms
+price =  340412.56301
+price =  291633.97342
+price =  293101.05686
+Predicted price of a 1650 sq-ft, 3 br house (using gradient descent):
+ $293101.056857
+Solving with normal equations...
+Theta computed from the normal equations:
+ 89597.909542
+ 139.210674
+ -8738.019112
+
+Predicted price of a 1650 sq-ft, 3 br house (using normal equations):
+ $293081.464335
