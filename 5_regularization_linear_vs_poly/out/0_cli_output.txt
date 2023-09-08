@@ -1,0 +1,97 @@
+Loading and Visualizing Data ...
+Gradient at theta = [1 ; 1]:  [-15.303016; 598.250744]
+(this value should be about [-15.303016; 598.250744])
+Iteration     2 | Cost: 2.237391e+01
+Iteration     3 | Cost: 9.860761e-32
+Iteration     3 | Cost: 3.286595e+00
+Iteration    25 | Cost: 2.842678e+00
+Iteration    22 | Cost: 1.315405e+01
+Iteration    33 | Cost: 1.944396e+01
+Iteration    15 | Cost: 2.009852e+01
+Iteration    30 | Cost: 1.817286e+01
+Iteration     7 | Cost: 2.260941e+01
+Iteration    25 | Cost: 2.326146e+01
+Iteration    20 | Cost: 2.431725e+01
+Iteration     2 | Cost: 2.237391e+01
+# Training Examples     Train Error     Cross Validation Error
+        1               0.000000        205.121096
+        2               0.000000        110.300366
+        3               3.286595        45.010231
+        4               2.842678        48.368911
+        5               13.154049       35.865165
+        6               19.443963       33.829962
+        7               20.098522       31.970986
+        8               18.172859       30.862446
+        9               22.609405       31.135998
+        10              23.261462       28.936207
+        11              24.317250       29.551432
+        12              22.373906       29.433818
+POLY
+Normalized Training Example 1:
+  1.000000
+  -0.362141
+  -0.755087
+  0.182226
+  -0.706190
+  0.306618
+  -0.590878
+  0.344516
+  -0.508481
+Iteration    63 | Cost: 7.268148e+00
+Iteration    14 | Cost: 1.206934e-31
+Iteration    23 | Cost: 7.269436e-02
+Iteration    24 | Cost: 1.849879e+01
+Iteration    41 | Cost: 1.457586e+01
+Iteration    21 | Cost: 1.166072e+01
+Iteration    56 | Cost: 1.011882e+01
+warning: division by zero.518060e+01
+Iteration    69 | Cost: 9.416317e+00
+Iteration    51 | Cost: 8.256224e+00
+Iteration    59 | Cost: 7.802076e+00
+warning: division by zero.861091e+01
+Iteration    69 | Cost: 7.064398e+00
+Iteration    70 | Cost: 6.423784e+00
+Iteration    63 | Cost: 7.268148e+00
+Polynomial Regression (lambda = 1.000000)
+
+# Training Examples     Train Error     Cross Validation Error
+        1               0.000000        138.846777
+        2               0.045772        143.522890
+        3               2.911375        5.534713
+        4               1.499412        6.609883
+        5               1.199183        6.634076
+        6               0.924511        8.291979
+        7               1.540897        5.737166
+        8               1.422968        5.516444
+        9               1.553733        6.239740
+        10              1.441565        5.983045
+        11              1.308147        6.043752
+        12              2.076188        4.260626
+Iteration   200 | Cost: 1.519138e-01
+Iteration   200 | Cost: 1.914938e-01
+Iteration   200 | Cost: 2.504111e-01
+Iteration   200 | Cost: 3.850842e-01
+Iteration   200 | Cost: 6.692749e-01
+Iteration   166 | Cost: 1.443470e+00
+Iteration   103 | Cost: 3.101591e+00
+Iteration    63 | Cost: 7.268148e+00
+Iteration    34 | Cost: 1.586769e+01
+Iteration    25 | Cost: 3.337220e+01
+lambda_optim=3
+lambda          Train Error     Validation Error
+ 0.000000       0.151914        19.204628
+ 0.001000       0.161289        17.459410
+ 0.003000       0.176139        17.875744
+ 0.010000       0.222082        17.156292
+ 0.030000       0.281846        12.829762
+ 0.100000       0.459318        7.587013
+ 0.300000       0.921760        4.636833
+ 1.000000       2.076188        4.260626
+ 3.000000       4.901351        3.822907
+ 10.000000      16.092213       9.945508
+Iteration    18 | Cost: 8.884132e+00
+
+J_test_min with theta from lambda opt (realistic evaluation of performance): 10.1264
+J_test_min with theta from training test-set (-> overfitting): 8.8841
+J_test_min with theta from first training with training-set (poor performance):11.6265
+>>
