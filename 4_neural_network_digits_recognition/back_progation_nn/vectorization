@@ -1,0 +1,17 @@
+%-------------------------------------------------------------------
+
+% J(THETA) Vector form:
+
+onesmk=ones(m, num_labels);
+display(['\n onesmk size: ', num2str(size(onesmk))])
+display(['\n mean(onesmk): ', num2str(mean(onesmk))])
+
+J1=-1/m*sum(sum(log(A3)*YK))
+display(['\n J1 size: ', num2str(size(J1))])
+
+J2=-1/m*sum(sum((onesmk-YK)*log(onesmk'-A3)))
+display(['\n J2 size: ', num2str(size(J2))]) 
+
+J=J1+J2;
+
+% -------------------------------------------------------------
